@@ -2,46 +2,7 @@ html{  /*FILE HTML*/
     font-family:Helvetica, sans-serif;
     height: 100%;
     text-align: center;
-    background-color:#C398A9;
-  }
-      
-  #wrapper {
-      margin: auto;
-      width: 90%;
-  }
-  #header {
-      margin-top: 1%;
-      height: fit-content;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-direction: column;
-  }
-  /*info layout*/
-  #main {
-      padding: 5px;
-      height: fit-content; 
-      display: flex;
-      flex-direction: column;
-  }
+    
+}
+
   
-  /*footer layout*/
-  #footer {
-      margin-bottom: 2%;
-      padding: 20px;
-      height: auto;
-  }
-  .layout {
-    width: 100%;
-    display: grid;
-    grid:
-      "body side" 1fr
-      / 1fr auto;
-    gap: 8px 10px;
-  }
-  
-  .body { 
-    grid-area: body;
-    margin: 10px 0px 20px 20px;
-    padding: 20px 20px 10px 20px; 
-  }
