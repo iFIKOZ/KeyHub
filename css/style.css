@@ -5,4 +5,10 @@ html{  /*FILE HTML*/
     
 }
 
-  
+.kartu {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+.isihal > a{
+    text-decoration: none;
+}
