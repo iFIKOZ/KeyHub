@@ -68,73 +68,64 @@
 <div class="judulhal">
   Firmwares
 </div>
-<div class="isihal">
+<div class="isihal" >
 
-<a href="normal.html">
-<div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-  <img src="img/normal/Toad.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Normal Layout</p>
-  </div>
-</div></a>
+<div class="box">
+<style>
+  a{
+  color: rgb(90, 90, 90);text-decoration: none;
+  }
+</style>
+  <p>Atmega family:</p>
+  <ul>
+  <li><a href="https://github.com/dhowland/EasyAVR">EasyAVR</a> - EasyAVR is a keyboard firmware and keymapper GUI for custom keyboards based on USB AVRs. It is powerful but also really easy to use.</li>
+  <li><a href="https://github.com/tmk/tmk_keyboard">TMK</a> - A very popular firmware that support Atmega32u4 powered keyboard.</li>
+  <li><a href="https://github.com/qmk/qmk_firmware">QMK</a> - Base on TMK but support a lot of controller, support RGB, easy to use.</li>
+  <li><a href="https://github.com/the-via/firmware">The VIA</a> - QMK based firmware for the view app.</li>
+  <li><a href="https://github.com/ahtn/keyplus">Keyplus</a> - An easy to use, wired and wireless modular keyboard firmware, for both ATXmega family and atmega32u4.</li>
+  <li><a href="https://github.com/keyboardio/Kaleidoscope">Kaleidoscope</a> - Flexible firmware for Arduino-powered keyboards.</li>
+  <li><a href="https://github.com/e-matteson/pipit-keyboard">Pipit keyboard</a> - Firmware and config tools for chording keyboards.</li>
+  <li><a href="https://about.houqp.me/posts/rusty-c/">rusty-c</a> - QMK in rust.</li>
+  <li><a href="https://github.com/Xelus22/QMK-VIA-Hex">QMK-VIA-Hex</a> - Precompile via firmware for qmk supported keyboard.</li>
+  </ul>
 
-<a href="ergo.html">
-<div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-  <img src="img/ergo/Sesame.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Ergonomic Layout</p>
-  </div>
-</div></a>
+  <p>Raspberry Pi Pico:</p>
+  <ul>
+  <li><a href="https://github.com/KMKfw/kmk_firmware">KMK</a> - Clackety Keyboards Powered by Python.</li>
+  <li><a href="https://github.com/zli117/PicoMK">PicoMK</a> - Configurable firmware for RP2040 powered mechanical keyboard.</li>
+  <li><a href="https://github.com/picoruby/prk_firmware">Prk firmware</a> - A keyboard firmware platform in PicoRuby.</li>
+  <li><a href="https://github.com/makerdiary/python-keyboard">PYKB</a> - A highly extensible firmware written in Python, based on CircuitPython, with RGB, USB and Bluetooth. similar to TMK/QMK.</li>
+  </ul>
 
-<a href="ortho.html">
-  <div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-    <img src="img/ortho/plaid.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Ortholinear Layout</p>
-    </div>
-  </div></a>
-  
+  <p>STM32 family:</p>
+  <ul>
+  <li><a href="https://zmk.dev/">ZMK</a> - Modern, open source keyboard firmware.</li>
+  <li><a href="https://github.com/TeXitoi/keyberon">Keyberon</a> - Keyboard firmware written in Rust.</li>
+  </ul>
 
-<a href="mini.html">
-  <div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-    <img src="img/mini/discipad.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Mini Layout</p>
-    </div>
-  </div></a>
+  <p>Nordic family:</p>
+  <ul>
+  <li><a href="https://github.com/jpconstantineau/BlueMicro_BLE">BlueMicro</a> - A Keyboard Firmware for nRF52832 Boards with a pinout compatible with the Arduino Pro Micro.</li>
+  <li><a href="https://github.com/geoah/bluetosis">Bluetosis</a> - Bluetooth firmware for the Mitosis keyboard.</li>
+  <li><a href="https://github.com/Lotlab/nrf52-keyboard">Lotlab/nrf52-keyboard</a> - TMK based keyboard firmware for nRF52 series, now support both nRF52810 and nRF52832.</li>
+  <li><a href="https://github.com/Lotlab/nrf51822-keyboard">Lotlab/nrf51822-keyboard</a> - This is a firmware based on nrf51822 Bluetooth keyboard, which uses nRF SDK 10.0 as the underlying hardware driver, and uses TMK keyboard library as the upper part of the keyboard function.</li>
+  </ul>
 
-<a href="case.html">
-<div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-  <img src="img/tools/arisu costum case.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Case</p>
-  </div>
-</div></a>
+  <p>Esp32 family:</p>
+  <ul>
+  <li><a href="https://github.com/T-vK/ESP32-BLE-Keyboard">T-vK/ESP32-BLE-Keyboard</a> - This library allows you to make the ESP32 act as a Bluetooth Keyboard and control what it does.</li>
+  <li><a href="https://github.com/Galzai/MK32">MK32</a> - BLE keyboard firmware for ESP32 microcontrollers,designed to be relativley easily customizable.</li>
+  <li><a href="https://github.com/TyberiusPrime/KeyToKey">Key To Key</a> - Rust libary for building keyboard firmwares.</li>
+  </ul>
 
-<a href="plate.html">
-  <div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-    <img src="img/tools/plate collection.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Plate</p>
-    </div>
-  </div></a>
+  <p>Others:</p>
+  <ul>
+  <li><a href="https://github.com/ah-/anne-key">Anne Key</a> - Firmware for Anne Pro Keyboard written in Rust.</li>
+  <li><a href="https://gitlab.com/polymer-kb/firmware/polymer">Polymer firmware</a> - Polymer keyboard firmware.</li>
+  </ul>
 
-<a href="firmwares.html">
-<div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-  <img src="img/tools/caniusevia.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Firmwares</p>
-  </div>
-</div></a>
+</div>
 
-<a href="tools.html">
-  <div class="card text-white kartu" style="width: 18rem;background-color: #3F3D55;">
-    <img src="img/tools/tools.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">Tools</p>
-    </div>
-  </div></a>
-  
 
 </div></div>
 

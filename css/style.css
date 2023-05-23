@@ -12,3 +12,8 @@ html{  /*FILE HTML*/
 .isihal > a{
     text-decoration: none;
 }
+.box{
+    text-align: start;
+    text-decoration: none;
+    color: black;
+}
