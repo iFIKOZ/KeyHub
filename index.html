@@ -28,6 +28,7 @@
       <img src="img/logo.png" alt="" width="70" class="d-inline-block align-text-top">
       KeyHub
     </a>
+    
 <!-- header list-->
   <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
 
@@ -61,6 +62,30 @@
       <li class="nav-item">
         <a class="nav-link text-light" href="upload.html">Upload</a>
       </li>
+      <style>
+        body {
+          background-color: #fff;
+          color: #000000;
+        }
+    
+        /* Dark mode styles */
+        body.dark-mode {
+          background-color: #000000;
+          color: #ffffff;
+        }
+      </style>
+      <script>
+        function toggleDarkMode() {
+          var body = document.querySelector('body');
+          body.classList.toggle('dark-mode');
+          align-right;
+        }
+      </script>
+    </head>
+    
+    <body>
+      <button onclick="toggleDarkMode()">Mode</button>
+    </body>
       
       
   </ul>
