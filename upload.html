@@ -72,18 +72,17 @@
   UPLOAD
 </div>
 <style>
-.custom-upload-btn {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #4CAF50;
+.tombol {
+  background-color: #008000;
   color: white;
+  font-size: 16px;
+  padding: 10px 20px;
   cursor: pointer;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  border: 0;
 }
 
-.custom-upload-btn:hover {
-  background-color: #45a049;
+.tombol:hover{
+  background: #228B22;
 }
 </style>
 <div class="isihal">
@@ -92,14 +91,12 @@
   <div class="card-body">
         <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
   </div>
-  <input type="file" id="upload-btn">
-<label for="upload-btn" class="custom-upload-btn">Upload Here</label>
+  <button id="tombol1" class="tombol">Upload Here</button>
 <script>
-  document.getElementById("upload-btn").addEventListener("click", function() {
+  document.getElementById("tombol1").addEventListener("click", function() {
     window.location.href = "https://github.com/iFIKOZ/KeyHub";
   });
 </script>
-
 
 </div></a>
 
