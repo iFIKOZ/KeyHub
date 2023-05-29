@@ -1,10 +1,12 @@
+
 .layout {
-    background-color: #bc8fa1;
+    background-color: #ECE4D0;
     margin: 120px 70px 25px 70px;
     padding: 20px 100px 5px 100px;
     height: max-content;
     border-radius: 25px;
 }
+
 
 .judulhal{
  font-size: 250%;
